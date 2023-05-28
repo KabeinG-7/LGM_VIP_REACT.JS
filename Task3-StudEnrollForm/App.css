@@ -1,0 +1,123 @@
+
+
+
+.navbar {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  color: #333;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-bottom: 4px solid #333;
+}
+.container {
+  margin-top: 30px;
+}
+
+form {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"],
+button[type="button"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+  background-color: #45a049;
+}
+
+.text-danger {
+  color: red;
+  font-size: 14px;
+}
+
+.text-success {
+  color: green;
+  font-size: 14px;
+}
+
+.heading {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.end {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Styles for enrolled students section */
+
+.enrolled-section {
+  margin-top: 30px;
+}
+
+.enrolled-heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.enrolled-container {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.enrolled-heading h5 {
+  color: #333;
+}
+
+.enrolled-name {
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.enrolled-details p {
+  margin-bottom: 5px;
+}
+
+.enrolled-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-top: 10px;
+}
